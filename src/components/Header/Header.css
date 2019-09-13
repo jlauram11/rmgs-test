@@ -1,6 +1,6 @@
 button.collapsible {
     background-color:white;
-    color: gray;
+    color: rgb(32, 32, 32);
     padding-bottom: 1.8vw;
     width: 6.5vw;
     height: 5vw;
@@ -22,15 +22,16 @@ span {
 b {
     font-size: 1vw;
 }
+.headerFlex {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    background-color: white;
+}
 .header{
     text-align: center;
-    margin-top: 4vw;
-    padding-right: 0%;
+    margin-left: 9vw;
     width: 70vw;
-    margin-left: 16vw;
-    margin-right: 16vw;
-    overflow: hidden;
-    float: center;
 }
 .menuIcon {
     width: 100%;
@@ -48,16 +49,4 @@ b {
     position: absolute;
     right: 8vw;
     top: 10.5vw;
-}
-#headerHR{
-    display: block;
-    margin-left: 14vw;
-    margin-right: 14vw;
-    margin-bottom: 3vw;
-    border-style: inset;
-    border-width: 1px;
-    height: 0.30vw;
-    background-color: hsl(199,87%,35%);
-    opacity: 1;
-    border: none;
 }
